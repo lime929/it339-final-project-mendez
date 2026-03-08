@@ -1,0 +1,371 @@
+[
+  {
+    "_id": "1",
+    "owner": "1",
+    "name": "Fringed Lace Sleeve Blazer",
+    "type": "Blouse",
+    "description": "Black lace blazer with dramatic fringed sleeves and deep V-neck satin top underneath. Edgy goth style with intricate patterns.",
+    "size": "M",
+    "color": "Black",
+    "fabric": "Lace, Satin",
+    "rating": 4.8,
+    "price": 89.99,
+    "amenities": [
+      "Fringed sleeves",
+      "Lace overlay",
+      "V-neck design",
+      "Goth aesthetic"
+    ],
+    "images": [
+      "Blouses1.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "2",
+    "owner": "1",
+    "name": "Claw Hand Accessory",
+    "type": "Accessory",
+    "description": "Metallic claw-shaped hand glove with spikes, perfect for dramatic goth looks.",
+    "size": "One Size",
+    "color": "Silver",
+    "fabric": "Metal, Leather",
+    "rating": 4.9,
+    "price": 45.0,
+    "amenities": [
+      "Spike details",
+      "Adjustable fit",
+      "Statement piece"
+    ],
+    "images": [
+      "Accessories-claw.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "3",
+    "owner": "1",
+    "name": "Wide Brim Black Hat",
+    "type": "Accessory",
+    "description": "Oversized black felt hat with fringe sleeve styling, ideal for alternative fashion.",
+    "size": "One Size",
+    "color": "Black",
+    "fabric": "Felt",
+    "rating": 4.7,
+    "price": 55.0,
+    "amenities": [
+      "Wide brim",
+      "Adjustable",
+      "Goth/vintage style"
+    ],
+    "images": [
+      "Accessories-hat.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "4",
+    "owner": "1",
+    "name": "Embroidered Hooded Scarf",
+    "type": "Accessory",
+    "description": "Dark embroidered hood-scarf with lace cuffs, mystical forest vibe.",
+    "size": "One Size",
+    "color": "Black, Grey",
+    "fabric": "Embroidered Fabric, Lace",
+    "rating": 4.6,
+    "price": 39.99,
+    "amenities": [
+      "Hooded design",
+      "Embroidered details",
+      "Lace trim"
+    ],
+    "images": [
+      "Accessories-scarf.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "5",
+    "owner": "1",
+    "name": "Chain Necklace Set",
+    "type": "Accessory",
+    "description": "Layered chain necklaces and harness style for goth layering.",
+    "size": "Adjustable",
+    "color": "Silver, Gold",
+    "fabric": "Metal Chain",
+    "rating": 4.5,
+    "price": 29.99,
+    "amenities": [
+      "Multiple chains",
+      "Harness design",
+      "Versatile layering"
+    ],
+    "images": [
+      "Accessories-chains.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "6",
+    "owner": "1",
+    "name": "Lace Puff Sleeve Blouse",
+    "type": "Blouse",
+    "description": "Victorian-inspired black lace blouse with puff sleeves and corset details.",
+    "size": "S",
+    "color": "Black",
+    "fabric": "Lace",
+    "rating": 4.9,
+    "price": 69.99,
+    "amenities": [
+      "Puff sleeves",
+      "Lace fabric",
+      "High collar"
+    ],
+    "images": [
+      "Blouses2.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "7",
+    "owner": "1",
+    "name": "Corset Blouse with Fringe",
+    "type": "Blouse",
+    "description": "Structured blouse with corset lacing, collar details, and subtle fringe.",
+    "size": "M",
+    "color": "Black",
+    "fabric": "Cotton, Leather",
+    "rating": 4.7,
+    "price": 74.99,
+    "amenities": [
+      "Corset lacing",
+      "Collared",
+      "Fringe accents"
+    ],
+    "images": [
+      "Blouses3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "8",
+    "owner": "1",
+    "name": "Harness Top with Glasses",
+    "type": "Blouse",
+    "description": "Chain harness top paired with sheer blouse, tattoo-friendly goth look.",
+    "size": "L",
+    "color": "Black",
+    "fabric": "Mesh, Chain",
+    "rating": 4.8,
+    "price": 64.99,
+    "amenities": [
+      "Chain harness",
+      "Sheer sleeves",
+      "Oversized fit"
+    ],
+    "images": [
+      "Blouses4.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "9",
+    "owner": "1",
+    "name": "Minimalist Lace Blouse",
+    "type": "Blouse",
+    "description": "Simple black lace blouse with clean lines for versatile goth styling.",
+    "size": "XS",
+    "color": "Black",
+    "fabric": "Lace",
+    "rating": 4.6,
+    "price": 59.99,
+    "amenities": [
+      "Delicate lace",
+      "Slim fit",
+      "Easy layer"
+    ],
+    "images": [
+      "Blouses5.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "10",
+    "owner": "1",
+    "name": "Layered Tulle Dress",
+    "type": "Dress",
+    "description": "Multi-layer black tulle dress with platform boots, dramatic goth silhouette.",
+    "size": "M",
+    "color": "Black",
+    "fabric": "Tulle",
+    "rating": 4.9,
+    "price": 129.99,
+    "amenities": [
+      "Tulle layers",
+      "High-low hem",
+      "Volume skirt"
+    ],
+    "images": [
+      "Dresses1.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "11",
+    "owner": "1",
+    "name": "Gothic Lolita Dress",
+    "type": "Dress",
+    "description": "Lace-trimmed gothic lolita dress with corset waist and petticoat volume.",
+    "size": "S",
+    "color": "Black, White",
+    "fabric": "Lace, Satin",
+    "rating": 5.0,
+    "price": 119.99,
+    "amenities": [
+      "Corset bodice",
+      "Lace trim",
+      "Flared skirt"
+    ],
+    "images": [
+      "Dresses2.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "12",
+    "owner": "1",
+    "name": "Victorian Blouse Dress",
+    "type": "Dress",
+    "description": "High-neck lace dress with puffed sleeves and ruffled skirt.",
+    "size": "M",
+    "color": "Black",
+    "fabric": "Lace",
+    "rating": 4.8,
+    "price": 109.99,
+    "amenities": [
+      "Puff sleeves",
+      "High collar",
+      "Ruffle hem"
+    ],
+    "images": [
+      "Dresses3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "13",
+    "owner": "1",
+    "name": "Platform Boot Dress",
+    "type": "Dress",
+    "description": "Short fringed dress with thigh-high boots for bold goth fashion.",
+    "size": "L",
+    "color": "Black, Burgundy",
+    "fabric": "Velvet, Fringe",
+    "rating": 4.7,
+    "price": 99.99,
+    "amenities": [
+      "Fringe details",
+      "Short hem",
+      "Studded belt"
+    ],
+    "images": [
+      "Dresses4.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "14",
+    "owner": "1",
+    "name": "Wilted Rose Dress",
+    "type": "Dress",
+    "description": "Classic black dress holding wilted roses, with puffed sleeves and lace cuffs.",
+    "size": "S",
+    "color": "Black",
+    "fabric": "Cotton, Lace",
+    "rating": 4.9,
+    "price": 89.99,
+    "amenities": [
+      "Puffed sleeves",
+      "Lace cuffs",
+      "Victorian style"
+    ],
+    "images": [
+      "Dresses5.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "15",
+    "owner": "1",
+    "name": "Forest Corset Dress",
+    "type": "Dress",
+    "description": "Corseted gown with bell sleeves in dark romantic forest theme.",
+    "size": "M",
+    "color": "Black, Red",
+    "fabric": "Velvet, Lace",
+    "rating": 4.8,
+    "price": 139.99,
+    "amenities": [
+      "Bell sleeves",
+      "Corset waist",
+      "Embroidered"
+    ],
+    "images": [
+      "Dresses6.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "_id": "16",
+    "owner": "1",
+    "name": "Urban Stair Dress",
+    "type": "Dress",
+    "description": "Tulle layered dress on urban stairs with moon boots.",
+    "size": "L",
+    "color": "Black",
+    "fabric": "Tulle",
+    "rating": 4.6,
+    "price": 114.99,
+    "amenities": [
+      "Multi tulle layers",
+      "Flared silhouette",
+      "Urban goth"
+    ],
+    "images": [
+      "Dresses7.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2026-03-07T00:00:00.000Z",
+    "updatedAt": "2026-03-07T00:00:00.000Z"
+  }
+]
