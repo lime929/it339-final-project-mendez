@@ -1,4 +1,13 @@
+import Hero from "./components/Hero";
+import Sale from "./components/Sale";
+// import Preview from "./components/Preview";
 
 export default function Home() {
- return (<></>);
+ return (
+    <>
+    <Hero/>
+    {/* <Preview/> */}
+    <Sale/>
+ 
+    </>);
 }

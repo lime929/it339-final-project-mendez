@@ -3,7 +3,7 @@ import Footer from '../app/components/Footer';
 import NavBar from '../app/components/NavBar';
 
 export const metadata = {
-  title: "White Rabbit Co. — Gothic Clothing & Dark Fashion",
+  title: "White Rabbit Co. - Gothic Clothing & Dark Fashion",
   description:
     "White Rabbit Co. is a gothic clothing brand offering dark, alternative fashion. Explore apparel inspired by occult aesthetics, romantic goth, and modern underground style.",
   keywords: [
