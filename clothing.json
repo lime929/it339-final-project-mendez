@@ -3,18 +3,18 @@
     "_id": "1",
     "name": "Victorian Lace Sleeve Blazer",
     "type": "Blouse",
-    "description": "Black lace blazer with dramatic fringed sleeves and deep V-neck satin top underneath. Edgy goth style with intricate patterns.",
-    "fabric": "Lace, Satin",
+    "description": "Black lace blazer with dramatic velvet sleeves and a fur lined V-neck. Captures an edgy goth style while also having Victorian inspiration through the leather buckles.",
+    "fabric": "Lace, Velvet, Fur, Leather",
     "rating": 4.8,
     "price": 89.99,
     "images": [
       "/images/Blouses/Blouses1.jpg"
     ],
     "keywords": [
-      "Fringed sleeves",
-      "Lace overlay",
-      "V-neck design",
-      "Goth aesthetic"
+      "Dramatic sleeves",
+      "Lace pattern",
+      "Fur V-neck",
+      "Leather hardware"
     ],
     "sizes": [
       "XS",
@@ -26,7 +26,8 @@
     "colors": [
       "Black",
       "Wine Red",
-      "Charcoal"
+      "Charcoal",
+      "Navy"
     ]
   },
   {
@@ -51,12 +52,13 @@
     "colors": [
       "Silver",
       "Gold",
-      "Black"
+      "Black",
+      "Rose Gold"
     ]
   },
   {
     "_id": "3",
-    "name": "Wide Brim Black Hat",
+    "name": "Wide Brim Black ",
     "type": "Accessory",
     "description": "Oversized black felt hat with fringe sleeve styling, ideal for alternative fashion. This wide brim provides a mysterious silhouette, especially good for foggy days.",
     "fabric": "Felt",
@@ -83,17 +85,17 @@
     "_id": "4",
     "name": "Embroidered Hooded Scarf",
     "type": "Accessory",
-    "description": "Dark embroidered hood-scarf with lace cuffs, mystical forest vibe. Delicate stitching evokes enchanted woods, wrapping you in romantic layers.",
-    "fabric": "Embroidered Fabric, Lace",
+    "description": "Dark embroidered hood-scarf with fur cuffs, giving off a mystical forest vibe. Delicate stitching evokes enchanted woods, wrapping you in romantic layers.",
+    "fabric": "Embroidered Fabric, Fur, Velvet",
     "rating": 4.6,
-    "price": 39.99,
+    "price": 59.99,
     "images": [
       "/images/Accessories/Accessories-scarf.jpg"
     ],
     "keywords": [
       "Hooded design",
       "Embroidered details",
-      "Lace trim"
+      "Fur trim"
     ],
     "sizes": [
       "One Size"
@@ -101,7 +103,8 @@
     "colors": [
       "Black",
       "Hunter Green",
-      "Purple"
+      "Deep Purple", 
+      "Burgundy"
     ]
   },
   {
@@ -126,51 +129,52 @@
     "colors": [
       "Silver",
       "Gold",
-      "Rose Gold"
+      "Rose Gold",
+      "Gunmetal"
     ]
   },
   {
     "_id": "6",
-    "name": "Lace Puff Sleeve Blouse",
+    "name": "Victorian Trench Coat",
     "type": "Blouse",
-    "description": "Victorian-inspired black lace blouse with puff sleeves and corset details. Soft volume and structured waist blend romance with subtlety for a timeless look.",
-    "fabric": "Lace",
+    "description": "Victorian-inspired trench coat with leather details and metal buttons. Soft fabric and structured silhouette blend romance with subtlety for a timeless look.",
+    "fabric": "Cotton, Leather, Metal",
     "rating": 4.9,
-    "price": 69.99,
+    "price": 79.99,
     "images": [
       "/images/Blouses/Blouses2.jpg"
     ],
     "keywords": [
-      "Puff sleeves",
-      "Lace fabric",
+      "Metal Hardware",
+      "Heavy fabric",
       "High collar"
     ],
     "sizes": [
-      "XS",
       "S",
-      "M"
+      "M",
+      "L"
     ],
     "colors": [
       "Black",
-      "Ivory",
-      "Deep Purple"
+      "Gunmetal",
+      "Hunter Green"
     ]
   },
   {
     "_id": "7",
-    "name": "Band T-shirt",
+    "name": "Collared Bat Blouse",
     "type": "Blouse",
-    "description": "Heavy cotton T-shirt material design to give you that boyfriend fit and oversized look. Band logo design is large and high quality embrodiery. Cinched fit and texture create an elegant silhouette.",
-    "fabric": "Cotton, Mesh",
+    "description": "This button down blouse blends gothic elements with office attire, allowed for self expression even at work. The design includes metal buttons, a bat collar and leather details.",
+    "fabric": "Velvet, Leather, Metal",
     "rating": 4.7,
     "price": 44.99,
     "images": [
       "/images/Blouses/Blouses3.jpg"
     ],
     "keywords": [
-      "Corset lacing",
-      "Collared",
-      "Fringe accents"
+      "Metal Hardware",
+      "Bat Collar Details",
+      "Black accents"
     ],
     "sizes": [
       "S",
@@ -180,7 +184,8 @@
     "colors": [
       "Black",
       "Burgundy",
-      "White"
+      "White",
+      "Hunter Green"
     ]
   },
   {
@@ -206,16 +211,16 @@
     ],
     "colors": [
       "Black",
-      "Brown",
-      "Gunmetal"
+      "Purple",
+      "Plum"
     ]
   },
   {
     "_id": "9",
-    "name": "Cut out Lace Blouse",
+    "name": "Bell Sleeved Lace Blouse",
     "type": "Blouse",
     "description": "Simple black lace blouse with clean lines for versatile goth styling. The delicate layers are not flashy yet add depth and personality to an outfit.",
-    "fabric": "Lace",
+    "fabric": "Lace, Mesh",
     "rating": 4.6,
     "price": 59.99,
     "images": [
@@ -234,15 +239,15 @@
     "colors": [
       "Black",
       "White",
-      "Navy"
+      "Cream"
     ]
   },
   {
     "_id": "10",
     "name": "Layered Tulle Dress",
     "type": "Dress",
-    "description": "Multi-layer black tulle dress with platform boots, dramatic goth silhouette. The ethereal dress flows with bold hems, perfect for a haunted evening of romance.",
-    "fabric": "Tulle",
+    "description": "Multi-layer black tulle dress with dramatic details including fur, lace and mesh. The ethereal dress flows with bold hems, perfect for a haunted evening of romance.",
+    "fabric": "Tulle, Fur, Lace, Polyester",
     "rating": 4.9,
     "price": 129.99,
     "images": [
@@ -251,7 +256,7 @@
     "keywords": [
       "Tulle layers",
       "High-low hem",
-      "Volume skirt"
+      "Fur lined Sleeves"
     ],
     "sizes": [
       "S",
@@ -261,24 +266,24 @@
     "colors": [
       "Black",
       "Midnight Blue",
-      "Deep Purple"
+      "High Lace Neck"
     ]
   },
   {
     "_id": "11",
-    "name": "Gothic Lolita Dress",
+    "name": "Romantic Goth Dress",
     "type": "Dress",
-    "description": "Lace-trimmed gothic lolita dress with corset waist and petticoat volume. Sweet ruffles and defined shaping create playful, doll-like lolita style silhouette.",
-    "fabric": "Lace, Satin",
+    "description": "Lace-trimmed gothic dress with corset waist and beautiful draping fabric. Sweet ruffles and defined shaping create regal, doll-like silhouette.",
+    "fabric": "Lace, Satin, Feathers",
     "rating": 5.0,
     "price": 119.99,
     "images": [
       "/images/Dresses/Dresses2.jpg"
     ],
     "keywords": [
-      "Corset bodice",
-      "Lace trim",
-      "Flared skirt"
+      "Feather Details",
+      "Lace sleeves",
+      "Drop waist"
     ],
     "sizes": [
       "XS",
@@ -286,25 +291,25 @@
     ],
     "colors": [
       "Black",
-      "Pink",
+      "Emerald",
       "Red"
     ]
   },
   {
     "_id": "12",
-    "name": "Victorian Blouse Dress",
+    "name": "Victorian Dress",
     "type": "Dress",
-    "description": "High-neck lace dress with puffed sleeves and ruffled skirt. Ornate collars and flared tiers channel elegant mourning attire from bygone eras",
-    "fabric": "Lace",
+    "description": "High-neck lace dress with off the shoulder sleeves and hoop-skirt inspired skirt. Ornate collars and flared tiers channel elegant mourning attire from bygone eras.",
+    "fabric": "Lace, Mesh, Polyester",
     "rating": 4.8,
     "price": 109.99,
     "images": [
       "/images/Dresses/Dresses3.jpg"
     ],
     "keywords": [
-      "Puff sleeves",
+      "Lace sleeves",
       "High collar",
-      "Ruffle hem"
+      "Hoop Skirt"
     ],
     "sizes": [
       "S",
@@ -322,7 +327,7 @@
     "name": "Asymetrical Dress",
     "type": "Dress",
     "description": "Short tiered dress with an asymetrical look to set you apart. This dress's mesh details are shown off by its simple structure focused on the bottom hem.",
-    "fabric": "Velvet, Mesh",
+    "fabric": "Cotton, Mesh",
     "rating": 4.7,
     "price": 99.99,
     "images": [
@@ -348,7 +353,7 @@
     "_id": "14",
     "name": "Wilted Rose Dress",
     "type": "Dress",
-    "description": "Classic black dress holding wilted roses, with puffed sleeves and lace cuffs. Decaying floral motifs add more details to its vintage charm.",
+    "description": "Classic black dress holding, with puffed sleeves and lace cuffs. Lacey motifs add more details to its vintage charm.",
     "fabric": "Cotton, Lace",
     "rating": 4.9,
     "price": 89.99,
@@ -375,8 +380,8 @@
     "_id": "15",
     "name": "Forest Corset Dress",
     "type": "Dress",
-    "description": "Corseted gown with bell sleeves in dark romantic forest theme. Lush velvet and embroidered vines weave wilderness mystery into fitted opulence.",
-    "fabric": "Velvet, Lace, Tulle",
+    "description": "An off the shoulder gown with a tiered skirt giving off a dark romantic forest theme. Three different colors of lace details draws inspiration from romantic goth aesthetics.",
+    "fabric": "Cotton, Lace, Tulle",
     "rating": 4.8,
     "price": 139.99,
     "images": [
@@ -384,8 +389,8 @@
     ],
     "keywords": [
       "Tulle train",
-      "Corset waist",
-      "Embroidered"
+      "Off the Shoulder",
+      "Lace Detailing"
     ],
     "sizes": [
       "S",
@@ -394,26 +399,27 @@
       "XL"
     ],
     "colors": [
-      "Black",
+      "Brown",
       "Red",
-      "Emerald"
+      "Emerald",
+      "Black"
     ]
   },
   {
     "_id": "16",
-    "name": "Urban Skater Dress",
+    "name": "Red Velvet Dress",
     "type": "Dress",
-    "description": "Pleated layered dress designed for comfort and movement at the skatepark. Don't let your alternative style stop you from being active with this dress designed for activity!",
-    "fabric": "Cotton",
+    "description": "A velvet dress perfect for the colder months when you want to be warm yet still stylish. This dress is also one of our most comfortable due to the materials and looser structure!",
+    "fabric": "Cotton, Velvet",
     "rating": 4.6,
     "price": 99.99,
     "images": [
       "/images/Dresses/Dresses7.jpg"
     ],
     "keywords": [
-      "Multi tulle layers",
+      "Flowy",
       "Flared silhouette",
-      "Urban goth"
+      "Comfy goth"
     ],
     "sizes": [
       "M",

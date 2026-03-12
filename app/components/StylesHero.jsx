@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import BannerImage from '@/assets/images/banner3.jpg';
 
+
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <Image
-        src={BannerImage} 
+        src={BannerImage}
         alt="White Rabbit Co. Style Inspiration"
         fill
         className="object-cover brightness-50"
@@ -18,7 +19,7 @@ export default function Hero() {
         <p className="text-xl md:text-2xl text-zinc-300 max-w-2xl mx-auto mb-8">
           Fall into dark fashion. Explore occult-inspired outfits.
         </p>
-        <a href="/clothing" 
+        <a href="/clothing"
           className="group inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-zinc-200 transition-all shadow-2xl hover:shadow-white/20"
         >
           Shop the Looks

@@ -5,13 +5,12 @@ import Link from 'next/link';
 export default function LookSection({ look }) {
   return (
     <div id="looks" className="mb-24">
-      <div className="relative w-full h-96 md:h-[500px] rounded-3xl overflow-hidden mb-12 ring-1 ring-zinc-800/50 shadow-2xl">
-      {/* Banner display */}
+      <div className="relative w-full h-[650px] md:h-[750px] lg:h-[900px] rounded-3xl overflow-hidden mb-12 ring-1 ring-zinc-800/50 shadow-2xl">
         <Image
-        src={look.image}
-        alt={look.title}
-        fill
-        className="object-cover [object-position:50%_20%] hover:scale-105 transition-transform duration-500"
+          src={look.image}
+          alt={look.title}
+          fill
+          className="object-cover [object-position:50%_30%] hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-8">
           <h3 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
@@ -19,8 +18,9 @@ export default function LookSection({ look }) {
           </h3>
         </div>
         <Link 
-        href="/clothing"
-        className="absolute top-6 right-6 bg-white/90 hover:bg-white text-black px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-all shadow-lg">
+          href="/clothing"
+          className="absolute top-6 right-6 bg-white/90 hover:bg-white text-black px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-all shadow-lg"
+        >
           SHOP THIS LOOK
         </Link>
       </div>

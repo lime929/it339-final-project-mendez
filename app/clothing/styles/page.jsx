@@ -6,14 +6,19 @@ import clothingArray from "@/clothing.json";
 export default function StylesPage() {
     const looks = [
   {
-    title: 'Skater Chic',
-    image: "/images/ourStyles/outfit1.jpg",
-    products: clothingArray.filter(item => ['2', '16'].includes(item._id)),
+    title: 'Sultry in the Snow',
+    image: "/images/ourStyles/Outfit1.jpg",
+    products: clothingArray.filter(item => ['16', '4'].includes(item._id)),
   },
   {
-    title: '',
-    image: "/images/ourStyles/outfit2.jpg",
-    products: clothingArray.filter(item => ['2', '16'].includes(item._id)),
+    title: 'Festival Babe',
+    image: "/images/ourStyles/Outfit2.jpg",
+    products: clothingArray.filter(item => ['15', '5'].includes(item._id)),
+  },
+  {
+    title: 'Office Siren',
+    image: "/images/ourStyles/Outfit3.jpg",
+    products: clothingArray.filter(item => ['7', '3'].includes(item._id)),
   },
 ];
 

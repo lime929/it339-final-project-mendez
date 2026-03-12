@@ -11,6 +11,33 @@ export default function ItemPage({ params }) {
 
   const item = clothingArray.find(m => m._id === id);
 
+  const colorMap = {
+  Black: '#000000',
+  'Wine Red': '#3d1318',
+  Charcoal: '#36454F',
+  Silver: '#C0C0C0',
+  Gold: '#88750c',
+  Grey: '#808080',
+  Burgundy: '#431114',
+  'Hunter Green': '#24473f',
+  Purple: '#2d0e43',
+  'Rose Gold': '#B76E79',
+  Ivory: '#FFFFF0',
+  White: '#FFFFFF',
+  Brown: '#392212',
+  Gunmetal: '#2A3439',
+  Navy: '#000080',
+  'Midnight Blue': '#191970',
+  Pink: '#FFC0CB',
+  Red: '#841c28',
+  Cream: '#FFFDD0',
+  'Deep Red': '#6d0303',
+  Crimson: '#DC143C',
+  'Forest Green': '#095509',
+  Emerald: '#288547',
+  Plum: '#8E4585'
+};
+
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100 py-12 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
@@ -70,14 +97,23 @@ export default function ItemPage({ params }) {
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wide text-zinc-400 mb-2">Color</label>
                 <div className="flex gap-2">
-                  {item.colors?.map((color, i) => (
+                  {/* {item.colors?.map((color, i) => (
                     <button
                       key={i}
                       className="w-10 h-10 rounded-lg border-2 border-zinc-700 hover:border-white focus:border-white focus:outline-none hover:scale-105 transition-all"
                       style={{ backgroundColor: color.toLowerCase() }}
                       title={color}
                     />
-                  ))}
+                  ))} */}
+                  {item.colors?.map((color, i) => (
+  <button
+    key={i}
+    className="w-10 h-10 rounded-lg border-2 border-zinc-700 hover:border-white focus:border-white focus:outline-none hover:scale-105 transition-all"
+    style={{ backgroundColor: colorMap[color]}}  
+    title={color}
+  />
+))}
+
                 </div>
               </div>
             </div>
