@@ -1,7 +1,13 @@
+"use client";  
+import { useRouter } from "next/navigation";
+import { use } from "react"; 
 import Image from "next/image";
+import clothingArray from "@/clothing.json";
+import { FaStar } from "react-icons/fa";
 
 export default function ItemPage({ params }) {
-   const { id } = params;
+  const router = useRouter();
+  const { id } = use(params); 
 
   const item = clothingArray.find(m => m._id === id);
 
@@ -20,7 +26,7 @@ export default function ItemPage({ params }) {
           
           <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-zinc-800 shadow-xl">
             <Image
-              src={`/images/${item.images[0]}`} 
+              src={item.images[0]} 
               alt={item.name}
               fill
               className="object-cover hover:scale-105 transition-transform duration-300"
@@ -33,12 +39,13 @@ export default function ItemPage({ params }) {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               {item.name}
             </h1>
-
-            <div className="text-3xl font-bold text-white mb-6">
+              <div className="text-3xl font-bold text-white mb-6 flex items-center gap-2">
               ${item.price}
-              <span className="text-xl text-zinc-400 ml-4">{item.rating}</span>
+              <div className="flex items-center gap-1 ml-auto">
+                <FaStar className="h-6 w-6 text-[#ff5483] fill-[#ff5483]" />
+                <span className="text-xl text-zinc-400">{item.rating}</span>
+              </div>
             </div>
-
             <div className="space-y-3 text-sm">
               <div className="flex justify-between">
                 <span className="text-zinc-400 uppercase tracking-wide font-semibold">Type</span>

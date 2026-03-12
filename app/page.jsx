@@ -1,12 +1,12 @@
 import Hero from "./components/Hero";
 import Sale from "./components/Sale";
-// import Preview from "./components/Preview";
+import Preview from "./components/Preview";
 
 export default function Home() {
  return (
     <>
     <Hero/>
-    {/* <Preview/> */}
+    <Preview/>
     <Sale/>
  
     </>);

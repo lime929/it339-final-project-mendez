@@ -10,6 +10,11 @@ export default function StylesPage() {
     image: "/images/ourStyles/outfit1.jpg",
     products: clothingArray.filter(item => ['2', '16'].includes(item._id)),
   },
+  {
+    title: '',
+    image: "/images/ourStyles/outfit2.jpg",
+    products: clothingArray.filter(item => ['2', '16'].includes(item._id)),
+  },
 ];
 
   return (
