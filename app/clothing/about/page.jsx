@@ -65,12 +65,6 @@ export default function AboutPage() {
                 <li>Tracking included</li>
               </ul>
             </div>
-            {/* <div className="bg-zinc-900/50 p-8 rounded-2xl ring-1 ring-zinc-800">
-              <h4 className="text-xl font-bold mb-4">Shipping Tracking</h4>
-              <Link href="#" className="inline-flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-lg font-semibold border border-zinc-700 hover:border-zinc-500 transition-all">
-                Track Order <FaShippingFast className="w-4 h-4 text-[#ff5483]" />
-              </Link>
-            </div> */}
           <div className="relative overflow-hidden rounded-3xl ring-1 ring-zinc-800 shadow-2xl">
             <Image
               src={ShippingImage}

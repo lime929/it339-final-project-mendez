@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import Link from "next/link";
-import AboutImage from '@/assets/images/banner2.jpg';
+import SaleImage from '@/assets/images/banner2.jpg';
 
 export default function SpringSaleBanner() {
   return (
     <section className="relative w-full bg-[#0f0e0e] overflow-hidden">
       <div className="relative w-full h-[450px] md:h-[500px]">
-        {/* CHANGE IMAGE */}
         <Image
-          src={AboutImage}
+          src={SaleImage}
           alt="Spring Sale - 40% Off All Items"
           fill
           className="w-full h-full object-cover brightness-75" 
@@ -26,20 +25,19 @@ export default function SpringSaleBanner() {
           </h2>
           <p className="text-[#9aa3a9] text-base md:text-lg leading-relaxed mb-8 drop-shadow-md max-w-lg">
   Get 40% off ALL clothing, dresses, blouses, and accessories automatically at checkout.{' '}
-  <span className="mt-4 block mb-6"> {/* Use span + block */}
-    Limited time only - stock up on your dark essentials before they're gone. No code needed.
+  <span className="mt-4 block mb-6"> 
+    Limited time only - stock up on your alternative essentials before they're gone. No code needed.
   </span>
   <span className="text-white font-semibold block mt-2">March 13 - April 21</span>
 </p>
 
-          {/* CHANGE RED COLOR TO PINK */}
-          <Link
-            href="/clothing"
-            className="group relative inline-block text-base font-bold px-8 py-4 rounded-xl bg-[#541212]/95 hover:bg-[#541212] border-2 border-[#ff5483]/50 hover:border-[#ff5483] text-white backdrop-blur-sm shadow-xl hover:shadow-pink-500/20 transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
-          >
-            <span className="relative z-10">Shop Sale Now</span> 
-            <span className="absolute inset-0 bg-gradient-to-r from-[#ff5483]/20 to-[#541212]/30 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </Link>
+         <Link
+  href="/clothing"
+  className="group relative inline-block text-base font-bold px-8 py-4 rounded-xl bg-[#3f1a2b]/95 border-2 border-[#d946ef]/50 text-white shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
+>
+  <span className="relative z-10">Shop Sale Now</span> 
+</Link>
+
         </div>
       </div>
     </section>

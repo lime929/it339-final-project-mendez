@@ -22,12 +22,9 @@ export default function Hero() {
           <p className="text-lg text-[#eeeeee]/90 max-w-2xl mb-8 drop-shadow-lg">
             Find your own style in our new collection of gothic clothing, inspired by the enchanting allure of forest fairies.
           </p>
-            <div className="bg-[#121514]/80 px-5 py-3 text-bold rounded-lg">
+            <div className="bg-[#121514]/60 px-4 py-2 text-bold rounded-2xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-3 tracking-tight text-[#fffbf0]">Forest Fairies</h1>
           </div>
-      <a href="/clothing" className="text-lg font-bold text-white/90 hover:text-white hover:border-b-2 hover:border-white pb-1 transition-all duration-300 drop-shadow-lg mt-3"> Clothing Catalog
-      </a>
-
         </div>
       </div>
   );
