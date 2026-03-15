@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import BannerImage from '@/assets/images/banner.jpg';
 
-
 export default function Hero() {
   return (
      
@@ -15,10 +14,9 @@ export default function Hero() {
           priority
         />
 
-
         <div className="absolute inset-0 bg-[#0f0e0e]/40"></div>
         <div className="absolute inset-x-0 bottom-10 flex flex-col items-center text-center px-4">
-  
+
           <p className="text-lg text-[#eeeeee]/90 max-w-2xl mb-8 drop-shadow-lg">
             Find your own style in our new collection of gothic clothing, inspired by the enchanting allure of forest fairies.
           </p>

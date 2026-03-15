@@ -24,19 +24,19 @@ export default function SpringSaleBanner() {
             40% OFF ALL CLOTHING
           </h2>
           <p className="text-[#9aa3a9] text-base md:text-lg leading-relaxed mb-8 drop-shadow-md max-w-lg">
-  Get 40% off ALL clothing, dresses, blouses, and accessories automatically at checkout.{' '}
-  <span className="mt-4 block mb-6"> 
-    Limited time only - stock up on your alternative essentials before they're gone. No code needed.
-  </span>
-  <span className="text-white font-semibold block mt-2">March 13 - April 21</span>
-</p>
+          Get 40% off ALL clothing, dresses, blouses, and accessories automatically at checkout.{' '}
+            <span className="mt-4 block mb-6"> 
+              Limited time only - stock up on your alternative essentials before they're gone. No code needed.
+            </span>
+            <span className="text-white font-semibold block mt-2">March 13 - April 21</span>
+         </p>
 
          <Link
-  href="/clothing"
-  className="group relative inline-block text-base font-bold px-8 py-4 rounded-xl bg-[#3f1a2b]/95 border-2 border-[#d946ef]/50 text-white shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
->
-  <span className="relative z-10">Shop Sale Now</span> 
-</Link>
+            href="/clothing"
+            className="group relative inline-block text-base font-bold px-8 py-4 rounded-xl bg-[#3f1a2b]/95 border-2 border-[#d946ef]/50 text-white shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5"
+          >
+            <span className="relative z-10">Shop Sale Now</span> 
+          </Link>
 
         </div>
       </div>

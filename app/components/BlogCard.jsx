@@ -5,6 +5,7 @@ export default function BlogCard({ item }) {
   return (
     <article className="group bg-zinc-900/70 rounded-lg shadow-md ring-1 ring-zinc-800 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-fit"> 
       <div className="relative aspect-[4/3] overflow-hidden">  
+      {/* item img */}
         <Image
           src={`/images/blog/${item.images[0]}`}
           alt={item.title}
@@ -14,6 +15,7 @@ export default function BlogCard({ item }) {
         />
       </div>
       
+      {/* item info */}
       <div className="p-2 pb-4"> 
         <h3 className="font-bold text-[#eeeeee] text-base line-clamp-2 mb-1"> 
           {item.title}

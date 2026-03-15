@@ -1,7 +1,11 @@
-'use client';
 import StylesHero from '../../components/StylesHero';
 import LookSection from '../../components/LookSection';
 import clothingArray from "@/clothing.json";
+
+export const metadata = {
+  title: "Our Styles | White Rabbit Co.",
+  description: "Explore curated gothic outfit inspiration from White Rabbit Co. - dark, elegant looks for every occasion.",
+};
 
 export default function StylesPage() {
 const looks = [
@@ -41,6 +45,7 @@ const looks = [
         <p className="text-xl text-zinc-400 text-center max-w-2xl mx-auto mb-20">
           Discover gothic looks from White Rabbit Co. Curated outfits for dark fashion lovers.
         </p>
+        {/* iterates through each look using json file's data and LookSection's structure */}
         {looks.map((look, index) => (
           <LookSection key={index} look={look} />
         ))}

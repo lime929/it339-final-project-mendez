@@ -5,6 +5,10 @@ import MissionImage from '@/assets/images/mission.jpg';
 import ShippingImage from '@/assets/images/shipping.jpg';
 import Image from 'next/image';
 
+export const metadata = {
+  title: "About | White Rabbit Co.",
+  description: "Learn about White Rabbit Co. - our mission, shipping policy, and FAQ for gothic alternative fashion lovers.",
+};
 
 export default function AboutPage() {
   return (
@@ -31,7 +35,6 @@ export default function AboutPage() {
               </ul>
             </div>
             <div className="relative h-64 md:h-80 bg-gradient-to-br from-zinc-900/50 to-black rounded-2xl ring-1 ring-zinc-800 p-8 flex items-center justify-center">
-              {/* <span className="text-6xl opacity-20">🖤</span> */}
                  <Image
                         src={MissionImage}
                         alt="Crystals and Pin with eye in middle"
@@ -87,11 +90,9 @@ export default function AboutPage() {
       Track Order 
       <FaShippingFast className="w-6 h-6 md:w-7 md:h-7 text-[#ff5483]" />
     </Link>
-  </div>
-</div>
-
-
-          </div>
+        </div>
+      </div>
+      </div>
         </section>
 
         {/* FAQ */}

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import BannerImage from '@/assets/images/banner3.jpg';
 
 
-export default function Hero() {
+export default function StylesHero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <Image

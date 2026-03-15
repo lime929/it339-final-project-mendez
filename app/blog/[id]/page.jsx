@@ -31,8 +31,8 @@ export default function BlogPage({ params }) {
           </h1>
           <div className="flex flex-wrap items-center gap-3 text-xs text-zinc-600">
             <span>{item.date}</span>
-                              {/* iterates through all tags in json file */}
 
+          {/* iterates through all tags in json file using their length */}
             {item.tags && item.tags.length > 0 && (
               <>
               {/* dash */}
@@ -73,10 +73,11 @@ export default function BlogPage({ params }) {
         </section>
 
         <article className="prose prose-sm md:prose-base max-w-none prose-a:text-pink-400 hover:prose-a:text-pink-300 prose-p:leading-relaxed">
-  {item.content.split("\n\n").map((paragraph, i) => (
-    <p key={i}>{paragraph}</p>
-  ))}
-</article>
+          {/* displays paragraphs with breaks */}
+        {item.content.split("\n\n").map((paragraph, i) => (
+          <p key={i}>{paragraph}</p>
+            ))}
+          </article>
 
         {/* Second image + intro side by side */}
         {item.images?.[1] && (

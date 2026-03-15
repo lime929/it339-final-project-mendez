@@ -17,6 +17,7 @@ export default function NavBar() {
         <span>FREE US Shipping w/ $75 orders</span>
       </div>
 
+        {/* title logo is link 1 & smaller links are 2-5 */}
       <nav className="bg-[#0f0e0e] border-b border-[#333] sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 lg:px-6">
           <div className="relative flex h-16 items-center justify-between">
@@ -54,7 +55,6 @@ export default function NavBar() {
                 </span>
               </Link>
 
-              {/* Desktop Nav Links*/}
               <div className="hidden md:ml-6 md:block">
                 <div className="flex space-x-4 lg:space-x-6">
                   <Link
