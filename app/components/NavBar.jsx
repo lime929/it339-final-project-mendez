@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <>
       {/* Promo bar */}
-      <div className="text-center text-xs sm:text-sm text-zinc-200 py-2 font-semibold border-b border-zinc-800 bg-zinc-950">
+      <div className="bg-zinc py-2 text-center text-xs sm:text-sm text-zinc-900 font-semibold border-b border-zinc-800">
         <span>FREE US Shipping w/ $75 orders</span>
       </div>
 
@@ -49,7 +49,7 @@ export default function NavBar() {
                   className="rounded h-10 w-auto"
                   priority
                 />
-                <span className="hidden md:block text-xl font-black text-white tracking-tight">
+                <span className="hidden md:block text-xl font-black text-white tracking-tight mr-9">
                   White Rabbit Co.
                 </span>
               </Link>
@@ -82,9 +82,9 @@ export default function NavBar() {
                     About
                   </Link>
                   <Link
-                    href="/clothing/blog"
+                    href="/blog"
                     className={`${
-                      pathname === "/clothing/blog" ? "border-b-2 border-white text-white" : "text-zinc-300 hover:text-white hover:border-b-2 hover:border-white"
+                      pathname === "/blog" ? "border-b-2 border-white text-white" : "text-zinc-300 hover:text-white hover:border-b-2 hover:border-white"
                     } text-sm font-semibold pb-1 transition-all`}
                   >
                     Blog
@@ -147,9 +147,9 @@ export default function NavBar() {
               About
             </Link>
             <Link
-              href="/clothing/blog"
+              href="/blog"
               className={`${
-                pathname === "/clothing/blog" ? "bg-zinc-800 text-white" : "text-zinc-300 hover:bg-zinc-800 hover:text-white"
+                pathname === "/blog" ? "bg-zinc-800 text-white" : "text-zinc-300 hover:bg-zinc-800 hover:text-white"
               } block rounded-md px-3 py-3 text-base font-semibold transition-colors`}
               onClick={() => setIsMobileMenuOpen(false)}
             >

@@ -30,11 +30,18 @@ export default function Footer() {
               Our Styles
             </a>
             <a
-              href="/sale"
+              href="/clothing/about"
               className="text-gray-200 hover:text-white hover:border-b-2 hover:border-white pb-1 transition-all duration-200"
             >
-              Sale
+              About
             </a>
+            <a
+              href="/blog"
+              className="text-gray-200 hover:text-white hover:border-b-2 hover:border-white pb-1 transition-all duration-200"
+            >
+              Blog
+            </a>
+            
           </nav>
         </div>
       </div>

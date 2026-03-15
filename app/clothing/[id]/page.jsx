@@ -5,12 +5,24 @@ import Image from "next/image";
 import clothingArray from "@/clothing.json";
 import { FaStar } from "react-icons/fa";
 
+// export default function ItemPage({ params }) {
+//   const router = useRouter();
+//   const { id } = use(params); 
+
+//   const item = clothingArray.find(m => m._id === id);
+
 export default function ItemPage({ params }) {
   const router = useRouter();
-  const { id } = use(params); 
+  const { id } = use(params);
+
+  console.log("URL id:", id, typeof id);
+  console.log("First JSON _id:", clothingArray[0]._id, typeof clothingArray[0]._id);
 
   const item = clothingArray.find(m => m._id === id);
+  console.log("item found:", item);
 
+
+  
   const colorMap = {
   Black: '#000000',
   'Wine Red': '#3d1318',
@@ -54,6 +66,7 @@ export default function ItemPage({ params }) {
           <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden ring-1 ring-zinc-800 shadow-xl">
             <Image
               src={item.images[0]} 
+              // src={`/images/${item.images[0]}`}
               alt={item.name}
               fill
               className="object-cover hover:scale-105 transition-transform duration-300"

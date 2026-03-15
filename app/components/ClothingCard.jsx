@@ -22,10 +22,13 @@ export default function ClothingCard({ item }) {
         <p className="text-xs text-zinc-400 mb-3">  
           ${item.price} • {item.sizes ? item.sizes.join(', ') : 'One Size'}
         </p>
+         <p className="text-zinc-300 line-clamp-2 mb-1 text-xs"> 
+          {item.description}
+        </p>
         
         <Link
           href={`/clothing/${item._id}`}
-          className="group relative inline-block w-full text-sm md:text-base font-bold px-3 py-2 rounded-xl bg-[#3f1a2b]/95 border-2 border-[#d946ef]/50 text-white shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5 overflow-hidden"  
+          className="group relative inline-block w-full text-sm md:text-base font-bold px-3 py-2 rounded-xl bg-[#FF5483]/95 border-2 border-[#CD2251]/50 text-white shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-0.5 overflow-hidden"  
         >
           View Details
         </Link>
