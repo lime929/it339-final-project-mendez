@@ -67,17 +67,19 @@ export default function BlogPage({ params }) {
 
         {/* Tagline */}
         <section className="mb-14">
-          <p className="text-sm md:text-base text-zinc-600 leading-relaxed max-w-2xl">
+          <p className="text-sm md:text-base text-zinc-600 leading-relaxed w-full max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-5xl">
             {item.tagline}
           </p>
         </section>
 
-        <article className="prose prose-sm md:prose-base max-w-none prose-a:text-pink-400 hover:prose-a:text-pink-300 prose-p:leading-relaxed">
-          {/* displays paragraphs with breaks */}
-        {item.content.split("\n\n").map((paragraph, i) => (
-          <p key={i}>{paragraph}</p>
-            ))}
-          </article>
+        {/* displays article and splits it up into paragraphs with spacing and indents */}
+      <article className="max-w-none">
+      {item.content.split("\n\n").map((paragraph, i) => (
+        <p key={i} className="text-sm md:text-base text-zinc-600 leading-relaxed mb-6">
+          {paragraph}
+        </p>
+      ))}
+      </article>
 
         {/* Second image + intro side by side */}
         {item.images?.[1] && (
@@ -90,7 +92,7 @@ export default function BlogPage({ params }) {
                 className="object-cover"
               />
             </div>
-            <div className="flex items-center h-full">
+            <div className="flex items-center h-full max-w-sm ml-5">
               <p className="text-sm md:text-base text-zinc-900 leading-relaxed">
                 {item.intro}
               </p>
