@@ -5,6 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FaBars, FaTimes, FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 import logoIcon from '@/assets/images/logo.png';
+import PromoBar from "./PromoBar";
 
 export default function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,15 +13,13 @@ export default function NavBar() {
 
   return (
     <>
-      {/* Promo bar */}
-      <div className="bg-zinc py-2 text-center text-xs sm:text-sm text-zinc-900 font-semibold border-b border-zinc-800">
-        <span>FREE US Shipping w/ $75 orders</span>
-      </div>
-
+      {/* Promo bar with improved circulating txt */}
+      <PromoBar />
+      
         {/* title logo is link 1 & smaller links are 2-5 */}
       <nav className="bg-[#0f0e0e] border-b border-[#333] sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-4 lg:px-6">
-          <div className="relative flex h-16 items-center justify-between">
+        <div className="px-4 lg:px-6">
+          <div className="relative flex h-20 items-center justify-between">
             
             {/* Mobile menu button: always positioned absolute left and hidden on md+ screens */}
             <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -60,7 +59,7 @@ export default function NavBar() {
                   <Link
                     href="/clothing"
                     className={`${
-                      pathname === "/clothing" ? "border-b-2 border-white text-white" : "text-zinc-300 hover:text-white hover:border-b-2 hover:border-white"
+                      pathname === "/clothing" ? "border-b-2 border-white text-white" : "text-gray-200 hover:text-white hover:border-b-2 hover:border-white"
                     } text-sm font-semibold pb-1 transition-all`}
                   >
                     All Clothing
@@ -68,7 +67,7 @@ export default function NavBar() {
                   <Link
                     href="/clothing/styles"
                     className={`${
-                      pathname === "/clothing/styles" ? "border-b-2 border-white text-white" : "text-zinc-300 hover:text-white hover:border-b-2 hover:border-white"
+                      pathname === "/clothing/styles" ? "border-b-2 border-white text-white" : "text-gray-200 hover:text-white hover:border-b-2 hover:border-white"
                     } text-sm font-semibold pb-1 transition-all`}
                   >
                     Our Styles
@@ -76,7 +75,7 @@ export default function NavBar() {
                   <Link
                     href="/clothing/about"
                     className={`${
-                      pathname === "/clothing/about" ? "border-b-2 border-white text-white" : "text-zinc-300 hover:text-white hover:border-b-2 hover:border-white"
+                      pathname === "/clothing/about" ? "border-b-2 border-white text-white" : "text-gray-200 hover:text-white hover:border-b-2 hover:border-white"
                     } text-sm font-semibold pb-1 transition-all`}
                   >
                     About
@@ -84,7 +83,7 @@ export default function NavBar() {
                   <Link
                     href="/blog"
                     className={`${
-                      pathname === "/blog" ? "border-b-2 border-white text-white" : "text-zinc-300 hover:text-white hover:border-b-2 hover:border-white"
+                      pathname === "/blog" ? "border-b-2 border-white text-white" : "text-gray-200 hover:text-white hover:border-b-2 hover:border-white"
                     } text-sm font-semibold pb-1 transition-all`}
                   >
                     Blog
@@ -96,10 +95,10 @@ export default function NavBar() {
             {/* icons on right are always right aligned on mobile and static on md+ screens */}
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:ml-6 md:pr-0">
               <div className="flex items-center gap-2 text-zinc-400">
-                <button className="p-2 rounded-full hover:bg-zinc-800 hover:text-white transition-all">
+                {/* <button className="p-2 rounded-full hover:bg-zinc-800 hover:text-white transition-all">
                   <FaSearch className="h-5 w-5" />
                   <span className="sr-only">Search</span>
-                </button>
+                </button> */}
                 
                 <button className="p-2 rounded-full hover:bg-zinc-800 hover:text-white transition-all">
                   <FaUser className="h-5 w-5" />

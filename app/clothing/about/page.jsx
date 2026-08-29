@@ -79,7 +79,7 @@ export default function AboutPage() {
 
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/90" />
 
-  <div className="relative p-12 md:p-16">
+  <div className="relative flex min-h-[272px] flex-col items-center justify-center text-center p-12 md:p-16">
     <h4 className="text-2xl md:text-2xl font-bold mb-6 text-white drop-shadow-lg">
       Shipping Tracking
     </h4>

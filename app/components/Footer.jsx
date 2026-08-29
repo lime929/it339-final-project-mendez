@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="font-black text-white">White Rabbit Co.</span>
             </p>
             <p className="text-xs text-[#ff5483] mt-1 font-mono tracking-wider">
-              Made with Next.js & Tailwind • IT 339
+              Made with Next.js & Tailwind for IT 339 By Liliana Mendez
             </p>
           </div>
 

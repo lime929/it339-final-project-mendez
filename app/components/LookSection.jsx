@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function LookSection({ look }) {
   return (
     <div id="looks" className="mb-24">
-      <div className="relative w-full h-[650px] md:h-[750px] lg:h-[900px] rounded-3xl overflow-hidden mb-12 ring-1 ring-zinc-800/50 shadow-2xl">
+      <div className="relative w-full max-w-4xl mx-auto aspect-[16/9] my-10 overflow-hidden rounded-2xl ring-1 ring-zinc-800 shadow-xl">
         <Image
           src={look.image}
           alt={look.title}

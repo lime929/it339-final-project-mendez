@@ -1,4 +1,4 @@
-import StylesHero from "./components/Hero";
+import HomeHero from "./components/HomeHero";
 import Sale from "./components/Sale";
 import Preview from "./components/Preview";
 import ReviewsSection from "./components/ReviewsSection";
@@ -11,7 +11,7 @@ export const metadata = {
 export default function Home() {
  return (
     <>
-    <StylesHero/>
+    <HomeHero/>
     <Preview/>
     <Sale/>
     <ReviewsSection />

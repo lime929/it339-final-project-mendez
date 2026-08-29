@@ -131,11 +131,11 @@ export default function ItemPage({ params }) {
         </div>
 
         {/* item desc */}
-        <div className="mt-12 lg:mt-16">
-          <h3 className="text-2xl font-bold mb-6 text-white border-b border-zinc-800 pb-4">
+        <div className="mt-12 lg:mt-16 ">
+          <h3 className="text-2xl font-bold mb-6 text-white border-b border-zinc-800 pb-4 ">
             Description
           </h3>
-          <p className="text-base leading-relaxed text-zinc-300 max-w-3xl">
+          <p className="text-base leading-relaxed text-zinc-300 max-w-52px]">
             {item.description}
           </p>
         </div>

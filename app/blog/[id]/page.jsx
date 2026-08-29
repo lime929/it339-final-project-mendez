@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { use } from "react";
+import { use, Fragment } from "react";
 import Image from "next/image";
 import blogArray from "@/blog.json";
 
@@ -13,15 +13,19 @@ export default function BlogPage({ params }) {
   return (
     <main className="min-h-screen bg-[#fafafa] border-b border-[#333] text-zinc-900 py-12 px-4 md:px-6">
       <div className="max-w-5xl mx-auto">
-        {/* Back button */}
+        {/* Back link */}
         <button
+          type="button"
           onClick={() => router.replace("/blog")}
-          className="group inline-flex items-center gap-2 mb-8 bg-zinc-900 hover:bg-zinc-800 text-zinc-200 px-5 py-2.5 rounded-full text-xs font-semibold border border-zinc-700 hover:border-zinc-500 transition-all"
+          className="group inline-flex items-center gap-2 mb-8 text-[11px] uppercase tracking-[0.22em] text-zinc-500 hover:text-zinc-900 transition-colors duration-200"
         >
-          Back to all stories
+          <span aria-hidden="true" className="text-base leading-none transition-transform duration-200 group-hover:-translate-x-1">
+            ←
+          </span>
+          <span className="font-medium">Back to all stories</span>
         </button>
 
-          {/* Header */}
+        {/* Header */}
         <header className="mb-10">
           <p className="text-[11px] uppercase tracking-[0.2em] text-pink-400 mb-3">
             Dark fashion tips
@@ -72,33 +76,48 @@ export default function BlogPage({ params }) {
           </p>
         </section>
 
-        {/* displays article and splits it up into paragraphs with spacing and indents */}
-      <article className="max-w-none">
-      {item.content.split("\n\n").map((paragraph, i) => (
-        <p key={i} className="text-sm md:text-base text-zinc-600 leading-relaxed mb-6">
-          {paragraph}
-        </p>
-      ))}
-      </article>
+{/* Displays article paragraphs and inserts the third image after paragraph 2 */}
+<article className="max-w-none">
+  {item.content.split("\n\n").map((paragraph, i) => (
+    <Fragment key={i}>
+      <p className="text-sm md:text-base text-zinc-600 leading-relaxed mb-6">
+        {paragraph}
+      </p>
 
-        {/* Second image + intro side by side */}
-        {item.images?.[1] && (
-          <div className="mt-14 grid gap-6 md:grid-cols-2 items-center">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl ring-1 ring-zinc-800">
-              <Image
-                src={`/images/blog/${item.images[1]}`}
-                alt={`${item.title} detail`}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="flex items-center h-full max-w-sm ml-5">
-              <p className="text-sm md:text-base text-zinc-900 leading-relaxed">
-                {item.intro}
-              </p>
-            </div>
-          </div>
-        )}
+      {i === 1 && item.images?.[2] && (
+        <div className="relative w-full max-w-3xl mx-auto aspect-[16/9] my-10 overflow-hidden rounded-2xl ring-1 ring-zinc-800 shadow-xl">
+          <Image
+            src={`/images/blog/${item.images[2]}`}
+            alt={`${item.title} featured look`}
+            fill
+            className="object-cover"
+          />
+        </div>
+      )}
+    </Fragment>
+  ))}
+</article>
+
+
+
+  
+        {/* Second image & text */}
+{item.images?.[1] && (
+  <section>
+    <div className="relative w-full max-w-3xl mx-auto aspect-[16/9] overflow-hidden rounded-2xl ring-1 ring-zinc-800">
+      <Image
+        src={`/images/blog/${item.images[1]}`}
+        alt={`${item.title} detail`}
+        fill
+        className="object-cover"
+      />
+    </div>
+
+    <p className="mt-6 text-sm md:text-base text-zinc-900 leading-relaxed">
+      {item.intro}
+    </p>
+  </section>
+)}
 
         {/* Tags at bottom */}
         {item.tags && item.tags.length > 0 && (

@@ -3,433 +3,202 @@
     "_id": "1",
     "name": "Victorian Lace Sleeve Blazer",
     "type": "Blouse",
-    "description": "Black lace blazer with dramatic velvet sleeves and a fur lined V-neck. Captures an edgy goth style while also having Victorian inspiration through the leather buckles.",
+    "description": "Bring a darkly polished finish to your wardrobe with this Victorian-inspired lace blazer. Ornate lace panels, dramatic velvet sleeves, and a soft fur-trimmed V-neck create a richly layered look that feels equally romantic and commanding. Leather buckle details add structure through the fitted silhouette, giving the piece a tailored edge without taking away from its theatrical character.\n\nWear it over a fitted dress for an evening-ready outfit, or layer it with a high-neck blouse, skirt, and boots for a more formal gothic look. The mix of glossy texture and detailed trim makes this blazer an easy statement layer for dinners, concerts, special events, or any day you want your outfit to feel more intentional. Available in multiple dark colorways to suit your personal style.",
     "fabric": "Lace, Velvet, Fur, Leather",
     "rating": 4.8,
     "price": 89.99,
-    "images": [
-      "/images/Blouses/Blouses1.jpg"
-    ],
-    "keywords": [
-      "Dramatic sleeves",
-      "Lace pattern",
-      "Fur V-neck",
-      "Leather hardware"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Black",
-      "Wine Red",
-      "Charcoal",
-      "Navy"
-    ]
+    "images": ["/images/Blouses/Blouses1.jpg"],
+    "keywords": ["Victorian gothic blazer", "Black lace blazer", "Velvet sleeve jacket", "Fur trim V-neck", "Leather buckle details", "Fitted gothic outerwear", "Dark romantic fashion", "Alternative formalwear", "Gothic workwear", "Theatrical layering piece"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Black", "Wine Red", "Charcoal", "Navy"]
   },
   {
     "_id": "2",
     "name": "Claw Hand Accessory",
     "type": "Accessory",
-    "description": "Metallic claw-shaped hand glove with spikes, perfect for dramatic goth looks. Sharp edges and adjustable fit make it a fierce statement for nights out.",
+    "description": "Make every look feel more dramatic with this sculptural metal claw hand accessory. Designed with articulated finger-hugging segments and sharply pointed spike details, it creates a dark futuristic finish that stands out from every angle. The adjustable construction allows for a flexible fit, while the lightweight statement design adds instant impact to even the simplest outfit.\n\nWear it alone over bare skin for a striking focal point, or style it with black lace sleeves, stacked rings, mesh layers, and leather accessories for a fully styled gothic look. Ideal for concerts, festivals, cosplay, photoshoots, parties, and after-dark outfits, this accessory is made for anyone who prefers their jewelry with an edge.",
     "fabric": "Metal",
     "rating": 4.9,
     "price": 45.0,
-    "images": [
-      "/images/Accessories/Accessories-claw.jpg"
-    ],
-    "keywords": [
-      "Spike details",
-      "Adjustable fit",
-      "Statement piece"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "colors": [
-      "Silver",
-      "Gold",
-      "Black",
-      "Rose Gold"
-    ]
+    "images": ["/images/Accessories/Accessories-claw.jpg"],
+    "keywords": ["Metal claw hand accessory", "Adjustable finger armor", "Spike jewelry", "Gothic hand jewelry", "Futuristic statement accessory", "Cyber goth style", "Concert accessory", "Festival statement piece", "Alternative fashion jewelry", "Cosplay hand accessory"],
+    "sizes": ["One Size"],
+    "colors": ["Silver", "Gold", "Black", "Rose Gold"]
   },
   {
     "_id": "3",
-    "name": "Wide Brim Black ",
+    "name": "Wide Brim Black",
     "type": "Accessory",
-    "description": "Oversized black felt hat with fringe sleeve styling, ideal for alternative fashion. This wide brim provides a mysterious silhouette, especially good for foggy days.",
+    "description": "Complete your look with the dramatic silhouette of this oversized wide-brim hat. Crafted in felt with a structured crown and flowing fringe detail, it brings a mysterious, witchy mood to everyday outfits without feeling like a costume. Its sweeping brim frames the face beautifully and gives dresses, coats, and layered separates an instantly more intentional finish.\n\nStyle it with a long black coat and platform boots for a dark autumn look, or pair it with a flowing maxi dress, velvet layers, and silver jewelry for a romantic vintage-inspired outfit. The adjustable one-size design makes it an effortless finishing piece for gothic, bohemian, and alternative wardrobes.",
     "fabric": "Felt",
     "rating": 4.7,
     "price": 55.0,
-    "images": [
-      "/images/Accessories/Accessories-hat.jpg"
-    ],
-    "keywords": [
-      "Wide brim",
-      "Adjustable",
-      "Goth/vintage style"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "colors": [
-      "Black",
-      "Grey",
-      "Burgundy"
-    ]
+    "images": ["/images/Accessories/Accessories-hat.jpg"],
+    "keywords": ["Wide brim felt hat", "Black witch hat", "Gothic wide brim hat", "Vintage-inspired accessory", "Witchy fashion hat", "Dark academia accessory", "Adjustable felt hat", "Bohemian goth style", "Autumn statement accessory", "Fringe detail hat"],
+    "sizes": ["One Size"],
+    "colors": ["Black", "Grey", "Burgundy"]
   },
   {
     "_id": "4",
     "name": "Embroidered Hooded Scarf",
     "type": "Accessory",
-    "description": "Dark embroidered hood-scarf with fur cuffs, giving off a mystical forest vibe. Delicate stitching evokes enchanted woods, wrapping you in romantic layers.",
+    "description": "Wrap yourself in a little dark romance with this embroidered hooded scarf. Its layered shoulder-draping shape combines the coverage of a scarf with the dramatic framing of a hood, while velvet accents, intricate embroidery, and soft fur-trimmed cuffs create a rich woodland-inspired finish. The result is an accessory that feels warm, expressive, and visually detailed from every angle.\n\nLayer it over a long coat for chilly walks, pair it with a lace dress for an enchanted evening look, or use it to add depth to a simple black outfit. Available in deep, moody shades, it is an easy way to bring texture and personality to autumn, winter, festival, and cosplay styling.",
     "fabric": "Embroidered Fabric, Fur, Velvet",
     "rating": 4.6,
     "price": 59.99,
-    "images": [
-      "/images/Accessories/Accessories-scarf.jpg"
-    ],
-    "keywords": [
-      "Hooded design",
-      "Embroidered details",
-      "Fur trim"
-    ],
-    "sizes": [
-      "One Size"
-    ],
-    "colors": [
-      "Black",
-      "Hunter Green",
-      "Deep Purple", 
-      "Burgundy"
-    ]
+    "images": ["/images/Accessories/Accessories-scarf.jpg"],
+    "keywords": ["Hooded scarf", "Embroidered hooded wrap", "Faux fur trim scarf", "Gothic winter accessory", "Woodland witch style", "Dark cottagecore wrap", "Velvet shoulder scarf", "Fantasy cosplay accessory", "Layered hooded shawl", "Alternative cold weather accessory"],
+    "sizes": ["One Size"],
+    "colors": ["Black", "Hunter Green", "Deep Purple", "Burgundy"]
   },
   {
     "_id": "5",
     "name": "Chain Necklace Set",
     "type": "Accessory",
-    "description": "Layered chain necklaces and harness style for goth layering. Multiple strands create versatile texture, elevating any outfit to look more alternative.",
+    "description": "Give your neckline an industrial edge with this layered chain necklace set. Multiple chain lengths create depth and movement across the chest, while the harness-inspired arrangement turns a simple top, dress, or bodysuit into a more styled and intentional look. The adjustable design makes it easy to position the layers for your preferred amount of coverage and drama.\n\nWear it over a plain black tee for a quick alternative update, or layer it with chokers, pendants, mesh, and corset details for a more maximalist outfit. From casual streetwear to concert looks and nighttime styling, this versatile set gives you an easy way to personalize your accessories.",
     "fabric": "Metal Chain",
     "rating": 4.5,
     "price": 29.99,
-    "images": [
-      "/images/Accessories/Accessories-chains.jpg"
-    ],
-    "keywords": [
-      "Multiple chains",
-      "Harness design",
-      "Versatile layering"
-    ],
-    "sizes": [
-      "Adjustable"
-    ],
-    "colors": [
-      "Silver",
-      "Gold",
-      "Rose Gold",
-      "Gunmetal"
-    ]
+    "images": ["/images/Accessories/Accessories-chains.jpg"],
+    "keywords": ["Layered chain necklace", "Harness necklace set", "Adjustable body chain", "Gothic chain jewelry", "Industrial fashion accessory", "Punk necklace layering", "Cyber goth jewelry", "Alternative statement necklace", "Concert outfit accessory", "Metal chain chest piece"],
+    "sizes": ["Adjustable"],
+    "colors": ["Silver", "Gold", "Rose Gold", "Gunmetal"]
   },
   {
     "_id": "6",
     "name": "Victorian Trench Coat",
     "type": "Blouse",
-    "description": "Victorian-inspired trench coat with leather details and metal buttons. Soft fabric and structured silhouette blend romance with subtlety for a timeless look.",
+    "description": "Step into colder weather with the sharp, dramatic silhouette of this Victorian-inspired trench coat. A high collar, leather accents, and rows of metal buttons give the design a tailored military influence, while the substantial cotton construction keeps the overall look refined and wearable. Its structured shape brings instant polish to layered outfits and makes a strong statement without sacrificing versatility.\n\nWear it open over a lace blouse and fitted trousers, or button it over a dark dress with heeled boots for a more formal gothic ensemble. Designed for everyday layering as well as special outings, this coat is a standout outer layer for city walks, concerts, dinners, and cool-weather occasions.",
     "fabric": "Cotton, Leather, Metal",
     "rating": 4.9,
     "price": 79.99,
-    "images": [
-      "/images/Blouses/Blouses2.jpg"
-    ],
-    "keywords": [
-      "Metal Hardware",
-      "Heavy fabric",
-      "High collar"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "Black",
-      "Gunmetal",
-      "Hunter Green"
-    ]
+    "images": ["/images/Blouses/Blouses2.jpg"],
+    "keywords": ["Victorian trench coat", "Gothic military coat", "High collar jacket", "Metal button outerwear", "Leather accent coat", "Dark romantic outerwear", "Tailored gothic jacket", "Alternative fall coat", "Steampunk-inspired coat", "Statement black trench"],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Gunmetal", "Hunter Green"]
   },
   {
     "_id": "7",
     "name": "Collared Bat Blouse",
     "type": "Blouse",
-    "description": "This button down blends gothic elements with office attire, allowing self expression at work. The design includes metal buttons, a bat collar and leather details.",
+    "description": "Rework the classic button-down with this polished blouse made for a darker wardrobe. The standout bat-shaped collar brings playful gothic character to the fitted silhouette, while metal buttons and leather accents introduce a subtle edge that still feels put together. Soft velvet details add texture, making this an easy piece to dress up for work, class, dinner, or a night out.\n\nTuck it into high-waisted trousers or a pleated skirt for a tailored look, or wear it with dark denim, boots, and layered chains for something more casual. It is the kind of versatile blouse that makes an outfit feel intentional with very little effort.",
     "fabric": "Velvet, Leather, Metal",
     "rating": 4.7,
     "price": 44.99,
-    "images": [
-      "/images/Blouses/Blouses3.jpg"
-    ],
-    "keywords": [
-      "Metal Hardware",
-      "Bat Collar Details",
-      "Black accents"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "Black",
-      "Burgundy",
-      "White",
-      "Hunter Green"
-    ]
+    "images": ["/images/Blouses/Blouses3.jpg"],
+    "keywords": ["Bat collar blouse", "Gothic button-down shirt", "Velvet gothic blouse", "Alternative workwear top", "Dark academia blouse", "Metal button shirt", "Fitted gothic top", "Office-ready goth fashion", "Halloween-inspired blouse", "Everyday alternative shirt"],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Burgundy", "White", "Hunter Green"]
   },
   {
     "_id": "8",
     "name": "Waist Corset",
     "type": "Accessory",
-    "description": "Waist corset can be added to any blouse or dress for a more fitted shape. Not only does it function for a better fit but also adds an edge to any outfit.",
+    "description": "Define your silhouette and transform your layers with this faux-leather waist corset harness. Adjustable straps create a structured, body-contouring effect over dresses, blouses, oversized shirts, and lightweight jackets, while the sleek finish adds a bold alternative edge. It is designed to sit at the waist as a styling piece, helping you create a more shaped and layered look without replacing the outfit underneath.\n\nUse it as the focal point over a flowing dress, style it with a lace blouse and skirt, or add it to an oversized shirt for a more streetwear-inspired silhouette. With several dark color options and adjustable sizing, this corset harness is a versatile essential for gothic, punk, and festival wardrobes.",
     "fabric": "Polyester, Faux Leather",
     "rating": 4.8,
     "price": 64.99,
-    "images": [
-      "/images/Blouses/Blouses4.jpg"
-    ],
-    "keywords": [
-      "Corset harness",
-      "Faux Leather",
-      "Tighter fit"
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Black",
-      "Purple",
-      "Plum"
-    ]
+    "images": ["/images/Blouses/Blouses4.jpg"],
+    "keywords": ["Faux leather waist corset", "Adjustable corset harness", "Gothic waist belt", "Body harness accessory", "Alternative outfit layering", "Punk corset belt", "Festival fashion harness", "Darkwear waist accessory", "Structured waist cincher", "Gothic dress accessory"],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black", "Purple", "Plum"]
   },
   {
     "_id": "9",
     "name": "Bell Sleeved Lace Blouse",
     "type": "Blouse",
-    "description": "Simple black lace blouse with clean lines for versatile goth styling. The delicate layers are not flashy yet add depth and personality to an outfit.",
+    "description": "Build a romantic gothic look around this delicate bell-sleeved lace blouse. Sheer lace and mesh layers give the slim silhouette texture and light movement, while the softly flared sleeves add a graceful finish that feels feminine without being overly formal. The understated design makes it easy to layer under corsets, jackets, pinafore dresses, and statement accessories.\n\nPair it with a high-waisted skirt and boots for an evening outfit, or wear it with dark denim and silver jewelry for a more casual take on alternative style. Available in versatile neutral shades, this blouse is a reliable wardrobe foundation for creating soft gothic, Victorian-inspired, and everyday dark-romantic looks.",
     "fabric": "Lace, Mesh",
     "rating": 4.6,
     "price": 59.99,
-    "images": [
-      "/images/Blouses/Blouses5.jpg"
-    ],
-    "keywords": [
-      "Delicate lace",
-      "Slim fit",
-      "Easy layer"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M"
-    ],
-    "colors": [
-      "Black",
-      "White",
-      "Cream"
-    ]
+    "images": ["/images/Blouses/Blouses5.jpg"],
+    "imagePosition": "0%",
+    "keywords": ["Bell sleeve lace blouse", "Sheer gothic top", "Romantic goth blouse", "Mesh lace layering top", "Victorian-inspired blouse", "Dark romantic fashion", "Gothic date night top", "Alternative wardrobe basic", "Slim fit lace shirt", "Soft goth blouse"],
+    "sizes": ["XS", "S", "M"],
+    "colors": ["Black", "White", "Cream"]
   },
   {
     "_id": "10",
     "name": "Layered Tulle Dress",
     "type": "Dress",
-    "description": "Multi-layer black tulle dress with dramatic details including fur, lace and mesh. The ethereal dress flows with bold hems, perfect for a haunted evening of romance.",
+    "description": "Create an unforgettable after-dark entrance in this layered tulle dress. The high-low skirt moves dramatically with every step, while tiers of tulle, lace, mesh, and fur-trimmed details create a dimensional silhouette that feels both ethereal and rebellious. A high neckline and statement sleeves add a theatrical finish, giving the dress a striking balance of dark romance and modern alternative style.\n\nWear it with platform boots and silver jewelry for a concert, formal event, or gothic night out, or soften the look with delicate heels and a small handbag. Its flowing layers make it a natural choice for photoshoots, special occasions, and any moment that calls for a dramatic dress with real presence.",
     "fabric": "Tulle, Fur, Lace, Polyester",
     "rating": 4.9,
     "price": 129.99,
-    "images": [
-      "/images/Dresses/Dresses1.jpg"
-    ],
-    "keywords": [
-      "Tulle layers",
-      "High-low hem",
-      "Fur lined Sleeves"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "Black",
-      "Midnight Blue",
-      "High Lace Neck"
-    ]
+    "images": ["/images/Dresses/Dresses1.jpg"],
+    "imagePosition": "0%",
+    "keywords": ["Layered tulle gothic dress", "High-low black dress", "Dark romantic formal dress", "Gothic prom dress", "Alternative evening gown", "Tulle and lace dress", "Theatrical gothic fashion", "Concert statement dress", "Ethereal black dress", "Gothic photoshoot outfit"],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Midnight Blue", "High Lace Neck"]
   },
   {
     "_id": "11",
     "name": "Romantic Goth Dress",
     "type": "Dress",
-    "description": "Lace-trimmed gothic dress with corset waist and beautiful draping fabric. Sweet ruffles and defined shaping create regal, doll-like silhouette.",
+    "description": "Lean into dark romance with this richly detailed gothic dress. Lace sleeves, a defined corset-style waist, layered ruffles, and feather-inspired trim come together to create a regal doll-like silhouette with plenty of movement. The fitted bodice creates shape through the waist before flowing into a softer skirt, making the dress feel dramatic while retaining an elegant, feminine finish.\n\nStyle it with dark tights, heeled boots, and delicate metal jewelry for a special occasion, or add a velvet choker and a structured coat for a full Victorian-inspired look. Available in deep jewel tones as well as black, this dress is made for formal events, themed gatherings, photoshoots, and nights when you want to dress with intention.",
     "fabric": "Lace, Satin, Feathers",
     "rating": 5.0,
     "price": 119.99,
-    "images": [
-      "/images/Dresses/Dresses2.jpg"
-    ],
-    "keywords": [
-      "Feather Details",
-      "Lace sleeves",
-      "Drop waist"
-    ],
-    "sizes": [
-      "XS",
-      "S"
-    ],
-    "colors": [
-      "Black",
-      "Emerald",
-      "Red"
-    ]
+    "images": ["/images/Dresses/Dresses2.jpg"],
+    "imagePosition": "0%",
+    "keywords": ["Romantic gothic dress", "Corset waist dress", "Lace sleeve formal dress", "Dark Victorian dress", "Feather trim dress", "Gothic special occasion dress", "Dark romantic eveningwear", "Alternative formal gown", "Gothic photoshoot dress", "Vintage-inspired gothic fashion"],
+    "sizes": ["XS", "S"],
+    "colors": ["Black", "Emerald", "Red"]
   },
   {
     "_id": "12",
     "name": "Victorian Dress",
     "type": "Dress",
-    "description": "High-neck lace dress with off the shoulder sleeves and hoop-skirt inspired skirt. Ornate collars and flared tiers channel elegant mourning attire from bygone eras.",
+    "description": "Channel the elegance of gothic Victorian styling in this high-neck dress with a dramatic hoop-skirt-inspired silhouette. Ornate collar detailing, off-the-shoulder lace sleeves, and flared skirt tiers create a refined period-inspired look with a bold modern presence. The structured upper half balances the volume of the skirt, creating a striking shape that looks polished from every angle.\n\nPair it with pointed boots, a small structured handbag, and dark lipstick for a formal gothic occasion outfit, or add gloves and vintage-inspired jewelry for a more theatrical interpretation. Whether worn to an event, a themed party, or a photoshoot, this dress is designed for making an elegant statement.",
     "fabric": "Lace, Mesh, Polyester",
     "rating": 4.8,
     "price": 109.99,
-    "images": [
-      "/images/Dresses/Dresses3.jpg"
-    ],
-    "keywords": [
-      "Lace sleeves",
-      "High collar",
-      "Hoop Skirt"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      "Black",
-      "Cream",
-      "Burgundy"
-    ]
+    "images": ["/images/Dresses/Dresses3.jpg"],
+    "imagePosition": "0%",
+    "keywords": ["Victorian gothic dress", "High collar lace dress", "Hoop skirt-inspired dress", "Gothic formalwear", "Historical-inspired gothic fashion", "Dark romantic occasion dress", "Off-the-shoulder lace dress", "Themed event outfit", "Gothic costume-inspired dress", "Elegant black gothic gown"],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Cream", "Burgundy"]
   },
   {
     "_id": "13",
-    "name": "Asymetrical Dress",
+    "name": "Asymmetrical Dress",
     "type": "Dress",
-    "description": "Short tiered dress with an asymetrical look to set you apart. This dress's mesh details are shown off by its simple structure focused on the bottom hem.",
+    "description": "Bring a playful edge to your evening wardrobe with this short asymmetrical dress. Tiered construction and an uneven hemline create movement and visual interest, while mesh accents add contrast against the clean cotton base. The compact silhouette is designed to stand out on its own but still layers easily under fitted jackets, oversized sweaters, or statement accessories.\n\nPair it with platform boots and a leather jacket for a concert-ready outfit, or style it with tights, layered chains, and dramatic makeup for a night out. Available in dark, romantic shades, this dress is an easy choice for anyone who wants an alternative look that feels bold, modern, and effortless.",
     "fabric": "Cotton, Mesh",
     "rating": 4.7,
     "price": 99.99,
-    "images": [
-      "/images/Dresses/Dresses4.jpg"
-    ],
-    "keywords": [
-      "Mesh details",
-      "Short hem",
-      "Asynmetrical"
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Black",
-      "Burgundy",
-      "Deep Red"
-    ]
-  },
-  {
-    "_id": "14",
-    "name": "Wilted Rose Dress",
-    "type": "Dress",
-    "description": "Classic black dress holding, with puffed sleeves and lace cuffs. Lacey motifs add more details to its vintage charm.",
-    "fabric": "Cotton, Lace",
-    "rating": 4.9,
-    "price": 89.99,
-    "images": [
-      "/images/Dresses/Dresses5.jpg"
-    ],
-    "keywords": [
-      "Puffed sleeves",
-      "Lace cuffs",
-      "Victorian style"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M"
-    ],
-    "colors": [
-      "Black",
-      "Crimson",
-      "Forest Green"
-    ]
+    "images": ["/images/Dresses/Dresses4.jpg"],
+    "imagePosition": "100%",
+    "keywords": ["Asymmetrical gothic dress", "Short mesh dress", "Alternative party dress", "Concert-ready outfit", "Tiered black mini dress", "Punk-inspired dress", "Gothic night out dress", "Dark romantic mini dress", "Edgy streetwear dress", "Platform boot outfit"],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black", "Burgundy", "Deep Red"]
   },
   {
     "_id": "15",
     "name": "Forest Corset Dress",
     "type": "Dress",
-    "description": "An off the shoulder gown with a tiered skirt giving off a dark romantic forest theme. Three different colors of lace details draws inspiration from romantic goth aesthetics.",
+    "description": "Step into a dark woodland fantasy with this off-the-shoulder corset dress. The fitted bodice creates definition through the waist, while a full tiered skirt and flowing tulle train bring romantic volume and movement. Lace detailing adds texture throughout the design, giving the dress an ornate finish that feels dramatic, feminine, and ready for a special occasion.\n\nWear it with dark boots and delicate metal jewelry for a more grounded gothic look, or style it with heeled shoes, a velvet wrap, and statement earrings for a formal event. With rich color options ranging from earthy brown to emerald and deep red, this dress is a standout choice for photoshoots, festivals, themed events, and romantic evenings.",
     "fabric": "Cotton, Lace, Tulle",
     "rating": 4.8,
     "price": 139.99,
-    "images": [
-      "/images/Dresses/Dresses6.jpg"
-    ],
-    "keywords": [
-      "Tulle train",
-      "Off the Shoulder",
-      "Lace Detailing"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Brown",
-      "Red",
-      "Emerald",
-      "Black"
-    ]
+    "images": ["/images/Dresses/Dresses6.jpg"],
+    "imagePosition": "100%",
+    "keywords": ["Forest corset dress", "Woodland gothic gown", "Off-the-shoulder corset dress", "Tulle train dress", "Dark fairy fashion", "Romantic gothic formalwear", "Lace tiered gown", "Fantasy festival dress", "Gothic photoshoot gown", "Cottage goth dress"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Brown", "Red", "Emerald", "Black"]
   },
   {
     "_id": "16",
     "name": "Red Velvet Dress",
     "type": "Dress",
-    "description": "A velvet dress perfect for the colder months when you want to be warm yet still stylish. This dress is also one of our most comfortable due to the materials and looser structure!",
+    "description": "Add rich texture to your cool-weather wardrobe with this soft velvet dress. Its relaxed shape and gently flared silhouette create an easy, comfortable fit, while the plush finish gives the simple design a luxurious gothic feel. The flowing lines move beautifully without becoming overly formal, making it a dependable choice when you want to look put together with minimal styling.\n\nWear it with opaque tights, lace-up boots, and a long coat for an everyday autumn outfit, or elevate it with heeled boots, layered necklaces, and a velvet bag for dinner or an evening event. This versatile dress is available in deep, wearable shades that pair naturally with dark accessories and layered outerwear.",
     "fabric": "Cotton, Velvet",
     "rating": 4.6,
     "price": 99.99,
-    "images": [
-      "/images/Dresses/Dresses7.jpg"
-    ],
-    "keywords": [
-      "Flowy",
-      "Flared silhouette",
-      "Comfy goth"
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "Black",
-      "Navy",
-      "Plum"
-    ]
+    "images": ["/images/Dresses/Dresses7.jpg"],
+    "imagePosition": "100%",
+    "keywords": ["Velvet gothic dress", "Flowy dark romantic dress", "Comfortable gothic outfit", "Flared velvet dress", "Autumn goth fashion", "Soft goth dress", "Alternative everyday dress", "Layering-friendly dress", "Cool weather gothic outfit", "Dark jewel-tone dress"],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black", "Navy", "Plum"]
   }
 ]
