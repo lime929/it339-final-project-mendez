@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { FaBars, FaTimes, FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
+import { FaBars, FaTimes, FaUser, FaShoppingCart } from "react-icons/fa";
 import logoIcon from '@/assets/images/logo.png';
 import PromoBar from "./PromoBar";
 
@@ -13,13 +13,13 @@ export default function NavBar() {
 
   return (
     <>
-      {/* Promo bar with improved circulating txt */}
+      {/* Promo bar with circulating txt */}
       <PromoBar />
       
         {/* title logo is link 1 & smaller links are 2-5 */}
       <nav className="bg-[#0f0e0e] border-b border-[#333] sticky top-0 z-50">
         <div className="px-4 lg:px-6">
-          <div className="relative flex h-20 items-center justify-between">
+          <div className="relative flex h-24 items-center justify-between">
             
             {/* Mobile menu button: always positioned absolute left and hidden on md+ screens */}
             <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -46,10 +46,10 @@ export default function NavBar() {
                   alt="White Rabbit Co. Logo"
                   width={40}
                   height={40}
-                  className="rounded h-10 w-auto"
+                  className="rounded h-10 w-auto mb-2.5"
                   priority
                 />
-                <span className="hidden md:block text-xl font-black text-white tracking-tight mr-9">
+                <span className="hidden md:block text-xl font-black text-white tracking-tight mr-9 mb-2.5">
                   White Rabbit Co.
                 </span>
               </Link>
@@ -95,10 +95,6 @@ export default function NavBar() {
             {/* icons on right are always right aligned on mobile and static on md+ screens */}
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:ml-6 md:pr-0">
               <div className="flex items-center gap-2 text-zinc-400">
-                {/* <button className="p-2 rounded-full hover:bg-zinc-800 hover:text-white transition-all">
-                  <FaSearch className="h-5 w-5" />
-                  <span className="sr-only">Search</span>
-                </button> */}
                 
                 <button className="p-2 rounded-full hover:bg-zinc-800 hover:text-white transition-all">
                   <FaUser className="h-5 w-5" />

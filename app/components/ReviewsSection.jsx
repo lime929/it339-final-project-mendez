@@ -25,7 +25,7 @@ export default function ReviewsSection() {
           What Our Coven Says
         </h2>
         <p className="text-xl text-zinc-700 text-center max-w-2xl mx-auto mb-20">
-          Real words from real women who refused to blend in.
+          Real words from women who refused to blend in.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {reviews.map((r, i) => (
